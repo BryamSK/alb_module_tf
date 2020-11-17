@@ -1,9 +1,11 @@
 # alb_module_tf
 Módulo para Creación de Balanceador de cargas para ECS de aws
+## Ultima Version estable
+v0.0.5
 
 ```
 module "alb_module" {
-    source = "github.com/BryamSK/alb_module_tf?ref=v0.0.4"
+    source = "github.com/BryamSK/alb_module_tf?ref=v0.0.5"
     project_name  = var.project_name
     subnets       = module.network_module.aws_subnet_ids
     security_groups = [module.network_module.aws_security_group_alb]
