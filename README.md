@@ -15,7 +15,7 @@ module "alb_module" {
 ### network_module
 Disponible en: github.com/BryamSK/network_module_tf
 
-## Variablesde entrada requeridad
+## Variablesde entrada
 
 ```
 variable "project_name" {
@@ -43,7 +43,7 @@ variable "targetGroup_port" {
   type        = number
 }
 ```
-## Variables de Salida requeridad
+## Variables de Salida
 ```
 output "elb_id" {
   value       = aws_alb.elb.id
