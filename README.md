@@ -1,5 +1,5 @@
 # alb_module_tf
-
+```
 module "alb_module" {
     source = "./../../alb_module_tf"
     project_name  = var.project_name
@@ -8,3 +8,4 @@ module "alb_module" {
     vpc_id          = module.network_module.vpc_id
     targetGroup_port    = 80
 }
+```
